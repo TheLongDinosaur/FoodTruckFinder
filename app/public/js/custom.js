@@ -115,6 +115,7 @@ jQuery(document).ready(function($) {
 		$('#filters a').removeClass('active');
 		$(this).addClass('active');
 		var selector = $(this).attr('data-filter');
+	// causes the icon to land all the way to the left (still looking for way to get icon to land center)
 		$container.isotope({ filter: selector });
 		return false;
 	});

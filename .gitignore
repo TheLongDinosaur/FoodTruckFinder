@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# Webstorm auto-generated file
+.idea
+.idea/workspace.xml
+
+# DS Store
+.DS_Store

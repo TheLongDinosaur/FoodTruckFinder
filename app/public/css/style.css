@@ -469,7 +469,6 @@ section.inner {
 
 
 /* === section spacer === */
-
 section.spacer {
 	padding:90px 0 70px;
 	color:#fcfcfc;
@@ -486,6 +485,7 @@ section.spacer {
 .spacer.yellow,.section.yellow  {
 	background:#ffe873;
 }
+
 .spacer.orange,.section.orange {
 	background:#f36f36;
 }
@@ -514,9 +514,7 @@ section.spacer blockquote cite {
 }
 
 
-
 /* === section works === */
-
 #works h4 {
 	margin-bottom:20px;
 }
@@ -524,8 +522,9 @@ section.spacer blockquote cite {
 #portfolio {
 	padding-bottom: 0;
 }
-/* === portfolio filter === */
 
+
+/* === portfolio filter === */
 #filters {
 	margin-bottom: 0px;
 	text-align: center;
@@ -564,8 +563,6 @@ section.spacer blockquote cite {
 #filters ul li a:hover h5, #filters ul li a.active h5 {
 	color:#fcfcfc;
 }
-
-
 
 
 /* === portfolio wrap - grid === */
@@ -689,8 +686,9 @@ section.spacer blockquote cite {
 	text-align: center;
 	display: block;
 }
-/* === Isotope CSS3 transitions === */
 
+
+/* === Isotope CSS3 transitions === */
 .isotope, .isotope .isotope-item {
 	-webkit-transition-duration: 0.8s;
 	-moz-transition-duration: 0.8s;
@@ -712,8 +710,9 @@ section.spacer blockquote cite {
 	-o-transition-property: -o-transform, opacity;
 	transition-property: transform, opacity;
 }
-/**** disabling Isotope CSS3 transitions ****/
 
+
+/**** disabling Isotope CSS3 transitions ****/
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
 	-webkit-transition-duration: 0s;
 	-moz-transition-duration: 0s;
@@ -724,7 +723,6 @@ section.spacer blockquote cite {
 
 
 /* === section services === */
-
 section#services h2 {
 	font-size: 22px;
 	margin-bottom: 15px;
@@ -734,8 +732,6 @@ section#services h2 {
 section#services p {
 	margin:10px;
 }
-
-
 section#services .service-box {
 	text-align: center;
 	padding: 20px;
@@ -748,19 +744,16 @@ section#services .service-box {
 section#services .span3:hover {
 	background:#e3e3e3;
 }
-
 section#services .service-box h2 {
 	color: #f7f7f7;
 	font-weight: 700;
 }
-
 section#services.section.orange .service-box:hover {
 	background:#f36518;
 }
 
 
 /* === section blog === */
-
 section#blog {
 	background: #f2f2f2;
 }
@@ -781,43 +774,51 @@ section#blog {
 	transition: all 0.4s ease-in-out;
 }
 
-
 .home-post .entry-content {
 	padding:20px;
 }
+
 .home-post .entry-content h5 a {
 	font-size:22px;
 }
+
 .home-post .entry-content h5 a:hover {
 	color:#312f2b;
 	text-decoration:none;
 }
+
 .home-post .entry-content a.more {
 	font-size:13px;
 }
+
 .home-post .post-meta {
 	padding:20px;
 	overflow:hidden;
 	color:#fcfcfc;
 }
+
 .home-post .post-meta i {
 	float:left;
 	margin-right:20px;
 }
+
 .home-post .post-meta span {
 	margin-top:10px;
 }
+
 .home-post .post-meta span.date {
 	font-weight:700;
 	font-size:13px;
 	float:left;
 }
+
 .home-post .post-meta span.tags {
 	font-weight:700;
 	font-size:13px;
 	float:right;
 	color:#ddd;
 }
+
 .home-post .post-meta span.tags a {
 	color:#fcfcfc;
 }
@@ -825,7 +826,6 @@ section#blog {
 
 
 /* === section about === */
-
 section#about {
 	background:#f2f2f2;
 }
@@ -884,11 +884,10 @@ section#about {
 	margin-right:20px;
 }
 
+
 /* === Contact section === */
 
-
 /* Contact Form */
-
 .validation {
     color: red;
     display:none;
